@@ -51,60 +51,12 @@ Get responses in real-time.
 
 File Structure
 
-qa-chatbot/
+QA-CHATBOT/
 ├── app.py                # Main Streamlit application
 ├── requirements.txt      # List of dependencies
 ├── data/                 # Knowledge base files
 ├── models/               # Pre-trained or fine-tuned models
 └── utils/                # Helper scripts
 
-Customization
 
-1. Knowledge Base
-
-Replace or add custom data files in the data/ folder. Ensure they are in a compatible format (e.g., CSV, JSON).
-
-2. Model
-
-You can fine-tune or replace the model in the models/ directory.
-
-Use pre-trained models from Hugging Face for specific use cases.
-
-Example Screenshots
-
-Homepage:
-Displays an input box for queries.
-
-Response Section:
-Shows chatbot responses.
-
-Dependencies
-
-Streamlit: For building the user interface.
-
-Transformers: For leveraging pre-trained models.
-
-Pandas: For handling data.
-
-PyTorch or TensorFlow: For model training and inference.
-
-Future Enhancements
-
-Add multi-language support.
-
-Integrate with APIs for dynamic knowledge retrieval.
-
-Add voice-based input and response functionality.
-
-Enhance the UI with custom themes.
-
-Contributing
-
-Contributions are welcome! Please follow these steps:
-
-Fork the repository.
-
-Create a new branch for your feature or bug fix.
-
-Submit a pull request with a clear explanation of your changes.
 
